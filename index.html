@@ -1,35 +1,141 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Tomylover by buyuxing</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Tomylover</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/buyuxing/tomylover" class="btn">View on GitHub</a>
-      <a href="https://github.com/buyuxing/tomylover/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/buyuxing/tomylover/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>送给心爱的月月的七夕礼物</title>
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="soundmanage/script/soundmanager2-nodebug.js"></script>
+    <script>
+        soundManager.setup({
+                           url: '/soundmanage/',
+                           flashVersion: 9, // optional: shiny features (default = 8)
+                           // optional: ignore Flash where possible, use 100% HTML5 mode
+                           // preferFlash: false,
+                           onready: function() {
+                           // Ready to use; soundManager.createSound() etc. can now be called.
+                           
+                           soundManager.createSound({
+                                                    id: 'mySound',
+                                                    url: 'mp3/就是爱你.mp3',
+                                                    autoLoad: true,
+                                                    autoPlay: true,
+                                                    onload: function()
+                                                    {
+                                                    },
+                                                    volume: 50
+                                                    });
+                           }
+                           });
+    </script>
+</head>
 
-    <section class="main-content">
-      <h1>
-<a id="tomylover" class="anchor" href="#tomylover" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>tomylover</h1>
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<span class="comments">//七夕到了,这是我们在一起以后第一个关于情侣的节日.</span><br />
+                <span class="comments">//我们都是程序员,所以我写了一些代码送给你。希望你喜欢。</span><br />
+				Boy     i = <span class="keyword">new</span> Boy    (<span class="string">"步宇星"</span>);<br />
+				Girl    u = <span class="keyword">new</span> Girl   (<span class="string">"陈佩"</span>);<br />
+                Couple we = <span class="keyword">new</span> Couple (i,u);<br />
+				<span class="comments">// 2014年3月17日我第一次遇见你.感觉你是个非常开朗又讨人喜欢的女孩.</span><br />
+                u.appear();<br />
+                <span class="comments">// 对你的印象很好,但当时我并没有想到你对我来说将会如此特别.</span><br />
+                <span class="comments">// 不过从那之后我就开始默默的关注你了.</span><br />
+				i.careAbout(u);<br />
+				<span class="comments">// 一次偶然的机会和你在地铁上聊了很多,发现很多共同的爱好.</span><br />
+                i.talkWith(u);<br />
+                <span class="comments">// 不经意间提到想去看电影.</span><br />
+                i.say(<span class="string">"想去看电影,又不知道该去哪看,有机会你带我去吧."</span>);<br />
+                <span class="comments">// 原本只是随口说说,并没有抱有期待,没想到你送了我一张电影票.</span><br />
+                u.giveMovieTicketTo(i);<br />
+                i.dateWith(u); <span class="comments">// 以此为机会,我们有了第一次约会.</span><br />
+                i.like(u);<span class="comments">// 期间非常愉快,我对你有了好感。</span><br />
+                <span class="comments">// 于是,五一请你当我的导游,你爽快的答应了.我们度过了悠闲舒适的一天.</span><br />
+				u.guide(i);<br />
+                we.haveANiceTime();<br />
+                <span class="comments">// 青年节那天你约我吃饭,说自己有私心,我偷偷的想难道你喜欢上我了,不会吧.</span><br />
+                u.haveDinnerWith(i);<br />
+                <span class="comments">// 想不到你的私心竟然真的是向我表白！那一刻我简直开心坏了！</span><br />
+                u.expressLoveTo(i);<br />
+                <span class="comments">// 虽然有些顾虑,但是得来不易的缘分不去珍惜,还有什么值得珍惜呢？</span><br />
+                i.accept(u);<br />
+                <span class="comments">// 终于我们在一起了！彼此都不在是独自一人了！</span><br />
+                we.failInLove();<br />
+                we.areNotAlone();<br />
+                <span class="comments">// 相爱容易相处难,在一起的这些日子有苦有甜.</span><br />
+                we.taste(<span class="string">"sweet"</span>,<span class="string">"bitter"</span>);<br />
+                <span class="comments">// 由于我内心的不安引起了很多不快,最终你让我下定决心去改变,去成长.</span><br />
+                u.inspire(i);<br />
+                i.wantGrowUpWith(u);<br />
+                <span class="comments">// 尽管我们有很多想法都不同,但我仍然相信我们就是注定在一起的.</span><br />
+                <span class="comments">// 希望我们以后一切都能顺顺利利,每一天都多爱一点点.</span><br />
+                <span class="keyword">while</span> (we.liveTegetherDays()) {<br />
+                <span class="placeholder"/>we.love.increase();<br />
+                }<br />
+				<span class="comments">// 七夕快乐！</span><br />
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						月月, 我们在一起已经
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						Love u forever and ever.<br/>
+						<div class="signature">-- 星星</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
+			Copyright © 2014 <a href='http://tomylover.sinaapp.com/'>tomylover</a> 2009-2014
+		</div>
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2014, 4, 4);
+		together.setHours(23);
+		together.setMinutes(29);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 5000);
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/buyuxing/tomylover">Tomylover</a> is maintained by <a href="https://github.com/buyuxing">buyuxing</a>.</span>
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+    
+</body>
 </html>
